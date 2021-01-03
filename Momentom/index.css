@@ -1,0 +1,63 @@
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+body { 
+    color:#130f40;
+    background-color: #6b8bac;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.js-clock{
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.js-greetings{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-left: 45%;
+}
+.js-input{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 45%;   
+}
+.js-toDoList{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 45%;
+}
+
+.js-weather{
+    font-family: 'Black Han Sans', sans-serif;
+
+    position: absolute;
+    top: 0;
+    left: 2375px;
+}
